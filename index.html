@@ -22,7 +22,9 @@
     position: relative; /* Nødvendig for at teksten skal posisjoneres i forhold til dette elementet */
     text-align: center; /* Sentrerer tekst horisontalt */
     color: white;       /* Tekstfarge */
-    display: inline-block; /* Gjør at containeren kun er like bred som bildet */
+    /*display: inline-block;  Gjør at containeren kun er like bred som bildet */
+	width: 100%;
+    height: auto;
   }
 
   .bilde-container img {
@@ -53,7 +55,7 @@ max-width: 120ch; /* Linjen blir aldri lengre enn ca. 60 tegn */
 
 	<body>
 		<div class="bilde-container">
-  			<img src="bilder/bot2.jpg" width="600" alt="Båten" >
+  			<img src="bilder/bot2.jpg"  alt="Båten" >
  		 	<h1 class="tittel-oppaa">S/Y Silja</h1>
 		</div>
 	<header>
@@ -82,6 +84,7 @@ max-width: 120ch; /* Linjen blir aldri lengre enn ca. 60 tegn */
 </body>
 
 </html>
+
 
 
 
